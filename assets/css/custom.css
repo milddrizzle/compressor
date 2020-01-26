@@ -17,7 +17,7 @@ ul.footer_list {
   padding-left: 0px;
 }
 ul.footer_list li {
-  color: #ed213a;
+  color: white;
   line-height: 1.6;
   font-weight: 500;
 }
@@ -65,7 +65,7 @@ ul.footer_list a:hover {
   width: 100%;
   float: left;
   border: none;
-  background: #ed213a;
+  background: white;
   border-radius: 50px;
   padding-left: 15px;
   font-size: 16px;
@@ -136,7 +136,7 @@ ul.footer_list a:hover {
 
 .footer_copyright p {
   font-size: 12px;
-  color: #ed213a;
+  color: white;
   padding-top: 20px;
 }
 
@@ -144,7 +144,7 @@ ul.footer_list a:hover {
   float: right;
   margin: 10px auto;
   max-width: 100%;
-  background: linear-gradient(to right, #ed213a, #93291e);
+  background: linear-gradient(to left, #ed213a, white);
 }
 
 body {
