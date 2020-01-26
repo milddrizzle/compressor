@@ -1,0 +1,303 @@
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .footer_main {
+    padding: 0px 0px 50px 0px;
+  }
+}
+
+.footer-right p,
+.footer_middle p {
+  font-family: montserrat;
+  font-size: 16px;
+  color: #ed213a;
+}
+
+ul.footer_list {
+  list-style: none;
+  padding-left: 0px;
+}
+ul.footer_list li {
+  color: #ed213a;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+ul.footer_list li.phone {
+  font-size: 22px;
+  color: #ed213a;
+}
+
+ul.footer_list li a {
+  color: #ed213a;
+  font-weight: 500;
+  text-transform: none;
+}
+ul.footer_list a:hover {
+  color: whitesmoke;
+  text-decoration: none;
+  list-style: none;
+}
+
+.footer_middle h4,
+.footer-right h4 {
+  font-family: montserrat;
+  font-size: 24px;
+}
+
+.footer_middle {
+  text-align: center;
+  padding: 0;
+}
+
+.footer-right h4,
+.footer-left h4 {
+  font-family: montserrat;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#hero-cta-email {
+  height: 50px;
+  width: 60%;
+}
+
+.hero-cta__form input {
+  width: 100%;
+  float: left;
+  border: none;
+  background: #ed213a;
+  border-radius: 50px;
+  padding-left: 15px;
+  font-size: 16px;
+  line-height: 18px;
+  height: 18px;
+  font-family: raleway;
+  font-weight: 400;
+  opacity: 1;
+  display: block;
+  margin-top: 10px;
+}
+
+.hero-cta__form input:focus {
+  outline: none;
+}
+
+.emailsignup {
+  font-family: montserrat;
+  font-size: 16px;
+  margin-left: 15px;
+  height: 50px;
+  width: 30%;
+  border: none;
+  background-color: #ed213a;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 50px;
+  margin-top: 10px;
+}
+
+.trustlogos {
+  content: url(https://www.authenticireland.com/wp-content/uploads/2018/04/TopTrust1.png);
+  background: linear-gradient(
+    to right,
+    #ed213a,
+    #ffffff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin: 10px auto;
+  max-width: 100%;
+}
+
+.footer_trust_top {
+  width: 100%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.footer_trust_top p {
+  font-family: montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ed213a;
+}
+
+.footer-left {
+  padding-left: 0px;
+  justify-content: flex-start;
+}
+.footer-right {
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer_main {
+  margin: 20px 0px 20px 0px;
+}
+
+.footer_copyright p {
+  font-size: 12px;
+  color: #ed213a;
+  padding-top: 20px;
+}
+
+.footer__partners img {
+  float: right;
+  margin: 10px auto;
+  max-width: 100%;
+  background: linear-gradient(to right, #ed213a, #93291e);
+}
+
+body {
+  background: black;
+}
+
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: "feathericons";
+  src: url("../fonts/feathericons/feathericons.eot?-8is7zf");
+  src: url("../fonts/feathericons/feathericons.eot?#iefix-8is7zf")
+      format("embedded-opentype"),
+    url("../fonts/feathericons/feathericons.woff?-8is7zf") format("woff"),
+    url("../fonts/feathericons/feathericons.ttf?-8is7zf") format("truetype"),
+    url("../fonts/feathericons/feathericons.svg?-8is7zf#feathericons")
+      format("svg");
+}
+
+.grid {
+  position: relative;
+  margin: 0 auto;
+  padding: 1em 0 4em;
+  max-width: 1000px;
+  list-style: none;
+  text-align: center;
+}
+
+/* Common style */
+.grid figure {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 320px;
+  max-width: 480px;
+  max-height: 360px;
+  width: 48%;
+  background: #3085a3;
+  text-align: center;
+  cursor: pointer;
+}
+
+.grid figure img {
+  position: relative;
+  display: block;
+  min-height: 100%;
+  max-width: 100%;
+  opacity: 0.8;
+}
+
+.grid figure figcaption {
+  padding: 2em;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+  pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure figcaption > a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.grid figure figcaption > a {
+  z-index: 1000;
+  text-indent: 200%;
+  white-space: nowrap;
+  font-size: 0;
+  opacity: 0;
+}
+
+.grid figure h2 {
+  word-spacing: -0.15em;
+  font-weight: 300;
+}
+
+.grid figure h2 span {
+  font-weight: 800;
+}
+
+.grid figure h2,
+.grid figure p {
+  margin: 0;
+}
+
+.grid figure p {
+  letter-spacing: 1px;
+  font-size: 68.5%;
+}
+
+/* Individual effects */
+
+/*---------------*/
+/***** Milo *****/
+/*---------------*/
+
+figure.effect-milo {
+  background: #2e5d5a;
+}
+
+figure.effect-milo img {
+  max-width: none;
+  width: -webkit-calc(100% + 60px);
+  width: calc(100% + 60px);
+  opacity: 1;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-30px, 0, 0) scale(1.12);
+  transform: translate3d(-30px, 0, 0) scale(1.12);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+figure.effect-milo:hover img {
+  opacity: 0.5;
+  -webkit-transform: translate3d(0, 0, 0) scale(1);
+  transform: translate3d(0, 0, 0) scale(1);
+}
+
+figure.effect-milo h2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 1em 1.2em;
+}
+
+figure.effect-milo p {
+  padding: 0 10px 0 0;
+  width: 50%;
+  border-right: 1px solid #fff;
+  text-align: right;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-40px, 0, 0);
+  transform: translate3d(-40px, 0, 0);
+}
+
+figure.effect-milo:hover p {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
